@@ -1,10 +1,10 @@
 import React from "react";
 
-import "../Home.css";
+// import stye forme "/Home.css";
 import { Link } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 
-function Home() {
+function HomePage() {
   const isMobile = useMediaQuery({ query: "(max-width: 760px)" });
   const isIpad = useMediaQuery({
     query: "(min-width: 760px) and (max-width: 1248px)",
@@ -135,4 +135,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;
